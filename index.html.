@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cathryn Gibson — Crypto Trader</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;background:#07111f;color:#edf4ff}
+.wrap{max-width:1050px;margin:auto;padding:28px 18px 50px}
+.hero{padding:28px;border:1px solid #1d3553;border-radius:24px;background:linear-gradient(135deg,#0c1d31,#091522);box-shadow:0 20px 60px #0006}
+.badge{display:inline-block;padding:7px 11px;border-radius:999px;background:#172b43;color:#9cc9ff;font-size:12px;font-weight:700;letter-spacing:.06em}
+h1{font-size:38px;margin:15px 0 7px}.bio{font-size:17px;color:#b9c8d9;line-height:1.6;max-width:760px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:20px}
+.card{background:#0d1b2b;border:1px solid #1c334e;border-radius:18px;padding:18px}.label{font-size:12px;color:#8fa6bd}.value{font-size:20px;font-weight:750;margin-top:7px}
+section{margin-top:20px}.title{font-size:20px;margin:0 0 12px}
+.trades{display:grid;gap:10px}.trade{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;align-items:center;padding:15px 17px;background:#0d1b2b;border:1px solid #1c334e;border-radius:14px}.coin{font-weight:750}.green{color:#61e6a4}.muted{color:#8fa6bd;font-size:13px}
+.notice{margin-top:20px;padding:12px 14px;border-radius:12px;background:#172536;border:1px solid #30465f;color:#b8c8d8;font-size:12px;line-height:1.5}
+.footer{margin-top:24px;color:#71869d;font-size:12px;text-align:center}
+@media(max-width:720px){.grid{grid-template-columns:repeat(2,1fr)}.trade{grid-template-columns:1.3fr 1fr;gap:8px}.trade>div:nth-child(n+3){display:none}h1{font-size:30px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <span class="badge">CRYPTO TRADER PROFILE</span>
+    <h1>Cathryn Gibson</h1>
+    <div class="bio">Meme coins, crypto &amp; big moves 💎📈 Trading the charts, chasing opportunities, and keeping the energy bullish 🚀💰 #CryptoGirl #MemeCoins</div>
+    <div class="grid">
+      <div class="card"><div class="label">Date of birth</div><div class="value">07/05/1972</div></div>
+      <div class="card"><div class="label">Location</div><div class="value">Sacramento, CA</div></div>
+      <div class="card"><div class="label">Nationality</div><div class="value">American</div></div>
+      <div class="card"><div class="label">Focus</div><div class="value">Meme Coins</div></div>
+    </div>
+  </div>
+
+  <section>
+    <h2 class="title">Trade Activity</h2>
+    <div class="trades">
+      <div class="trade"><div class="coin">$PEPE <span class="muted">/ USDT</span></div><div>Entry $0.0000082</div><div>Exit $0.0000101</div><div class="green">+23.17%</div></div>
+      <div class="trade"><div class="coin">$DOGE <span class="muted">/ USDT</span></div><div>Entry $0.142</div><div>Exit $0.166</div><div class="green">+16.90%</div></div>
+      <div class="trade"><div class="coin">$BONK <span class="muted">/ USDT</span></div><div>Entry $0.000019</div><div>Exit $0.000024</div><div class="green">+26.32%</div></div>
+      <div class="trade"><div class="coin">$WIF <span class="muted">/ USDT</span></div><div>Entry $1.71</div><div>Exit $2.05</div><div class="green">+19.88%</div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="title">Trading Wins</h2>
+    <div class="grid">
+      <div class="card"><div class="label">PEPE</div><div class="value green">+$1,920</div></div>
+      <div class="card"><div class="label">DOGE</div><div class="value green">+$1,180</div></div>
+      <div class="card"><div class="label">BONK</div><div class="value green">+$2,340</div></div>
+      <div class="card"><div class="label">WIF</div><div class="value green">+$1,560</div></div>
+    </div>
+  </section>
+
+  <div class="notice"><strong>Disclosure:</strong> The trade figures, returns, and wins displayed on this page are illustrative examples for presentation purposes and are not verified financial transactions or performance results.</div>
+  <div class="footer">Cathryn Gibson · Sacramento, California · Crypto &amp; meme-coin profile</div>
+</div>
+</body>
+</html>
